@@ -1,0 +1,54 @@
+																						CHAPTER 4
+																						---------	
+1. [] IS THE LIST REPRESENTATION 
+
+
+2. #ASSIGNING THE VALUE "HELLO" AS THIRD VALUE IN A LIST STORED IN AVARIABLE CALLED spam
+   spam=[2,4,6,8,10]
+   >>spam[2]='HELLO'
+   >>spam
+   >>[2,4,"HELLO",8,10]
+   
+   
+3. #GIVEN spam=['a','b','c','d'] for 3,4,5 questions
+   >>spam[int('3'*2)/11]     # evaluate to
+     '-->spam[int('33')/11]  # '3'*2='33',since string replication
+     '-->spam[33/11]     	 # int('33') evaluates to 33
+     '-->spam[3.0]			 # 33/11 = 3.0
+     '-->Traceback (most recent call last):
+         File "<stdin>", line 1, in <module>
+         TypeError: list indices must be integers or slices, not float
+
+
+4.  spam=[2,4,6,8,10]
+	>>spam[-1]               # evaluate to 'd' the last item 
+	'd'
+	
+	
+5.  >>spam[:2]               # evaluate to [2,4] since it indicates to take elements upto 2 but not 2
+	[2,4]
+
+
+
+##FOR THE FOLLOWING THREE QUESTIONS,bacon=[3.14,'cat',11,'cat',True].
+
+6.	>>bacon=[3.14,'cat',11,'cat',True]  
+	>>bacon.index('cat')	  # evaluate to number 1 ,the first preference is taken incase of duplicate elemnets in list
+
+
+
+7.	>>bacon.append(99)		  #	it simply adds the element or include it at the end of list.
+	>>bacon					  # Now, bacon looks like this. 
+	bacon=[3.14,'cat',11,'cat',True,99]
+	
+	
+	
+8.  >>bacon.remove('cat')	  # it removes the element and it removes the first encounteredvelement if duplicates are present.
+
+
+	
+9.	>>
+
+
+	1   
+	

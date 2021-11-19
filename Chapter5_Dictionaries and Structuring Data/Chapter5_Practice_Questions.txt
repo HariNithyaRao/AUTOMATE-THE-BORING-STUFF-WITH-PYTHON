@@ -1,0 +1,22 @@
+1.What does the code for an empty dictionary look like?
+	>>empty_dict={}
+	
+2.What does a dictionary value with a key 'foo' and a value 42 look like?
+	>>m={'foo':42}
+	
+3.what is the main difference between a dictionary and a list?
+
+        -------------------------------------------------------
+		|			DICTIONARY     |	LISTS				  |
+		-------------------------------------------------------
+		THESE ARE UNOREDERD        | LISTS ARE ORDERED SEQUENCES
+		                           |
+		THE INDEXES NEED NOT TO BE |  THE INDEXES MUST BE OF INTEGER 
+		INTEGERS ,THEY CAN BE ANY  |  DATATYPE.
+		DATATYPE.                  |
+		                           |
+		REPRESENTED WITH " {} ".   |REPRESENTED WITH "[]".
+		
+4.
+		
+		                     
