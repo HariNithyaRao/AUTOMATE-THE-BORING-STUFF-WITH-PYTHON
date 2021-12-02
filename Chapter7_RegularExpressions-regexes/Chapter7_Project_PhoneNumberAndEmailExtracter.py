@@ -8,13 +8,12 @@ text=str(pyperclip.paste())
 #phoneRegex=re.compile(r'\d\d\d\d\d\d\d\d\d\d') 		#this regex for general tendigit phonenumbers.
 
 phoneRegex=re.compile(r'''(
-						(\d{3}|\(d{3}\))?				#AREA OF CODE
-						(\s|-|\.)?						#SEPARATOR
-						(\d{3})							#FIRST 3 DIGITS
-						(\s|-|\.)						#SEPARATOR
-						(\d{4})							#LAST 4 DIGITS
-						(\s*(ext|x|ext.)\s*(\d{2,5}))?	#EXTENSION
-						)''',re.VERBOSE)
+				(\d{3}|\(d{3}\))?				        #AREA OF CODE
+				(\s|-|\.)?						#SEPARATOR
+				(\d{3})							#FIRST 3 DIGITS
+				(\s|-|\.)						#SEPARATOR
+				(\d{4})							#LAST 4 DIGITS
+				(\s*(ext|x|ext.)\s*(\d{2,5})))''',re.VERBOSE)
 
 list_of_phonenum=[]
 for groups in phoneRegex.findall(text):
